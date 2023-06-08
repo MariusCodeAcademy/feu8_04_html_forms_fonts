@@ -17,6 +17,31 @@
 
 <body>
   <h1>Formos bus cia</h1>
+
+  <section>
+    <h2>Login form</h2>
+    <form class="loginForm" method="get">
+      <div class="inputBlock">
+        <label for="email">Email</label>
+        <input class="textInput" type="text" id="email" name="email">
+      </div>
+      <div class="inputBlock">
+        <label for="password">Password</label>
+        <input class="textInput" type="password" id="password" name="password">
+      </div>
+      <fieldset>
+        <legend>Awailable days</legend>
+        <input type="checkbox" name="mon" id="mon">
+        <label for="mon">Monday</label>
+        <input type="checkbox" name="tue" id="tue">
+        <label for="tue">Tuesday</label>
+        <input type="checkbox" name="wed" id="wed">
+        <label for="wed">Wednesday</label>
+      </fieldset>
+      <!-- pateikti forma -->
+      <button type="submit">Login</button>
+    </form>
+  </section>
 </body>
 
 </html>

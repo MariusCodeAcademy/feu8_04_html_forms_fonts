@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google font Start -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- google font End -->
+  <title>Forms 2</title>
+  <link rel="stylesheet" href="forms2.css">
+</head>
+
+<body>
+  <h1>More forms</h1>
+
+  <h2>Input pvz</h2>
+
+  <form>
+    <div class="inputBlock">
+      <label class="block" for="search">Search here</label>
+      <input class="textInput" type="search" name="search" id="search" maxlength="4">
+    </div>
+    <div class="inputBlock">
+      <input class="textInput" type="email" name="email" id="email" placeholder="Email here" required>
+      <input class="textInput" type="number" placeholder="How many?" step="0.01" max="0.05">
+    </div>
+    <div class="inputBlock">
+      <label for="body">Your text here</label> <br>
+      <textarea class="textArea" name="body" id="body" rows="3"></textarea>
+    </div>
+
+    <div class="inputBlock">
+      <label for="town">Town</label> <br>
+      <select name="town" id="town" class="textInput">
+        <option value="vilnius">Vilnius</option>
+        <option value="kaunas">Kaunas</option>
+        <option value="klaipeda">Klaipeda</option>
+      </select>
+    </div>
+
+    <div class="inputBlock">
+      <label for="date">When?</label>
+      <input type="date" name="date" id="date">
+    </div>
+
+    <div class="inputBlock">
+      <label for="range">range</label>
+      <input type="range" min="1" max="5" step="1">
+    </div>
+
+    <!-- senesnio tipo pateikimo mygtukas -->
+    <input type="submit" value="Seniau taip buvo">
+    <button type="submit">Pateikti <strong>forma</strong> </button>
+
+  </form>
+
+</body>
+
+</html>

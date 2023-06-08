@@ -29,3 +29,10 @@ body {
   width: calc(100% - 80px);
   width: 100%;
 }
+
+.check {
+  height: 20px;
+  width: 20px;
+  background-color: pink;
+  accent-color: green;
+}

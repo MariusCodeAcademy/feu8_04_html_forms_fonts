@@ -20,6 +20,8 @@ body {
 .fieldS {
   text-align: left;
   margin-bottom: 15px;
+  width: 45%;
+  margin-left: auto;
 }
 .inputBlock {
   margin-bottom: 15px;

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skaidru</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Payment form</h1>
+      <p>Required fields are with *</p>
+      <h2>Contact info</h2>
+      <form class="mainForm" autocomplete="off">
+        <fieldset>
+          <legend>Title</legend>
+          <!-- one radio block -->
+          <div>
+            <input type="radio" name="title" id="mr" />
+            <label for="mr">Mr</label>
+          </div>
+          <!-- /one radio block -->
+          <!-- one radio block -->
+          <div>
+            <input type="radio" name="title" id="ms" />
+            <label for="ms">Ms</label>
+          </div>
+          <!-- /one radio block -->
+        </fieldset>
+        <!-- one text input -->
+        <div class="inputBlock">
+          <label for="name">Name: *</label>
+          <input class="textInput" type="text" name="name" id="name" required />
+        </div>
+        <!-- /one text input -->
+        <!-- one text input -->
+        <div class="inputBlock">
+          <label for="email">Email: *</label>
+          <input
+            class="textInput"
+            type="email"
+            name="email"
+            id="email"
+            required
+          />
+        </div>
+        <!-- /one text input -->
+        <!-- one text input -->
+        <div class="inputBlock">
+          <label for="password">Password: *</label>
+          <input
+            class="textInput"
+            type="password"
+            name="password"
+            id="password"
+            required
+          />
+        </div>
+        <!-- /one text input -->
+        <h2 class="title">Payment info</h2>
+
+        <!-- card type select -->
+        <div class="inputBlock">
+          <label for="cardType">Card type: *</label>
+          <select name="cardType" id="cardType">
+            <option value="visa">Visa</option>
+            <option value="masterCard">Master Card</option>
+          </select>
+        </div>
+        <!-- /card type select -->
+
+        <!-- one text input -->
+        <div class="inputBlock">
+          <label for="cardNr">Card number: *</label>
+          <input
+            class="textInput"
+            type="text"
+            name="cardNr"
+            id="cardNr"
+            required
+            minlength="16"
+            maxlength="16"
+          />
+        </div>
+        <!-- /one text input -->
+        <!-- one text input -->
+        <div class="inputBlock">
+          <label for="expDate">Expiration Date: *</label>
+          <input
+            class="textInput"
+            type="date"
+            name="expDate"
+            id="expDate"
+            required
+            minlength="16"
+            maxlength="16"
+          />
+        </div>
+        <!-- /one text input -->
+      </form>
+    </div>
+  </body>
+</html>

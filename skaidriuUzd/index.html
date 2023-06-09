@@ -13,7 +13,7 @@
       <p>Required fields are with *</p>
       <h2>Contact info</h2>
       <form class="mainForm" autocomplete="off">
-        <fieldset>
+        <fieldset class="fieldS">
           <legend>Title</legend>
           <!-- one radio block -->
           <div>
@@ -63,7 +63,7 @@
         <!-- card type select -->
         <div class="inputBlock">
           <label for="cardType">Card type: *</label>
-          <select name="cardType" id="cardType">
+          <select class="textInput" name="cardType" id="cardType">
             <option value="visa">Visa</option>
             <option value="masterCard">Master Card</option>
           </select>
@@ -98,6 +98,9 @@
           />
         </div>
         <!-- /one text input -->
+        <div class="center">
+          <button class="subBtn" type="submit">Submit</button>
+        </div>
       </form>
     </div>
   </body>

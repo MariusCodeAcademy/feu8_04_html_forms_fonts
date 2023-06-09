@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 600px;
+  border: 1px solid #000;
+  padding: 25px 35px;
+}
+
+.mainForm {
+  text-align: right;
+}
+
+.fieldS {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.inputBlock {
+  margin-bottom: 15px;
+}
+
+.textInput {
+  width: 45%;
+  padding: 5px 8px;
+  display: inline-block;
+}
+
+.title {
+  text-align: left;
+  background-color: pink;
+}
+.center {
+  text-align: center;
+  background-color: pink;
+}
+
+.subBtn {
+  text-align: center;
+  /* display: block; */
+  /* margin-right: auto;
+  margin-left: auto; */
+  /* width: 100%; */
+}
